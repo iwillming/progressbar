@@ -1,0 +1,37 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "lib": [
+            "DOM",
+            "ES2015",
+            "ES2016",
+            "ES2017",
+            "ES2018",
+            "ES2019",
+            "ES2020",
+            "ESNext",
+        ],
+        "jsx": "react",
+        "pretty": true,
+        "allowJs": true,
+        "module": "es2015",
+        "target": "ESNext",
+        "sourceMap": false,
+        "outDir": "./dist/",
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "importHelpers": true,
+        "noUnusedLocals": true,
+        "removeComments": false,
+        "moduleResolution": "node",
+        "noUnusedParameters": true,
+        "preserveConstEnums": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "includes": [
+        "./typings/index.d.ts",
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
